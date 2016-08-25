@@ -19,7 +19,9 @@ class JungleBeat
   end
 
   def play
-    #incomplete
+    beats = list.to_string
+    'say -r 500 -v Boing "#{beats}"'
+    "#{beats}"
   end
 
 end
